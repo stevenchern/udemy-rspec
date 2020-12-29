@@ -1,4 +1,4 @@
-describe "math calculations" do
+RSpec.describe "math calculations" do
   it 'does basic math' do
     expect(9 + 2).to eq(11)
     expect(9 * 2).to eq(18)
